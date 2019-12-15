@@ -1,7 +1,9 @@
 Jason Villanueva
+
 Brysen Kokubun
 
 CPE-476 Tasks
+
 Task 1: Description of the Mobile Robot - Include documentation and reference to datasheets, images, assembly instructions, etc. 
 Reference to datasheets 
 	Romi32U4 Board 
