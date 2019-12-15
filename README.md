@@ -1,6 +1,6 @@
-Jason Villanueva
+1. Jason Villanueva
 
-Brysen Kokubun
+1. Brysen Kokubun
 
 CPE-476 Tasks
 
@@ -40,6 +40,8 @@ Task 2: Motor and Encoder Testing - In this task, the team will perform basic te
 	-https://github.com/jasonvillanuevagit/cpe476/blob/master/RasPiBot202V2/examples/TestEncoders/TestEncoders.ino
 	Motor Test: For this test, we ran a program that allows the Romi to move forward/backward for a particular motor speed when a certain button is pressed 
 	-https://github.com/jasonvillanuevagit/cpe476/blob/master/RasPiBot202V2/examples/TestMotors/TestMotors.ino
+	-https://www.youtube.com/watch?v=8cvD0LUeJGo
+	-https://www.youtube.com/watch?v=VzjcOl_mzO0
  
 Task 3: Wheel Calibration (fix systematic errors) - The goal of this task will be to move your robot using built-in commands for a distance of 2 meters. Determine the trim values of the motor such that the robot travels in a straight line. 
 - Since the Wheel Motors came factory built, when we ran our Motor Test we noticed that the right motor was spinning at a faster speed than the left motor, about 2% faster. This caused the Romi to veer to the left when it was supposed to go move straight. After minimal calibrations and determining which values to trim, our Romi was able to move in a straight path. 
@@ -47,13 +49,15 @@ Task 3: Wheel Calibration (fix systematic errors) - The goal of this task will b
 	-https://github.com/bkokubun99/CPE-476-Mobile-Robotics/blob/master/RasPiBot202V2/examples/TestOdometer/TestOdometer.ino
 	Encoder Test: We received data feedback from the encoders which allowed us to determine what values to trim
 	-https://github.com/jasonvillanuevagit/cpe476/blob/master/Task_Sketches/encoder_feedback.ino
-	Motor Test: For this test, the right motor spinning about 2% faster than the left. Therefore we had to trim the values of the right motor. 
+	Motor Test: For this test, the right motor spinning about 2% faster than the left. Therefore we had to trim the values of the 	right motor. 
 	-https://github.com/jasonvillanuevagit/cpe476/blob/master/Task_Sketches/straight_line.ino
+	-https://www.youtube.com/watch?v=s7eu7RdRU6s
 	
 Task 4: Unidirectional & Bidirectional Square Path Experiment - In this task the robot, follows a path comprising of four straight line segments and four pure rotations about the robot's center point, at the corners of the square. The robot's end position visualizes the dead-reckoning error. 
 -For this task we had the Romi drive straight for a meter, then with trial and error determined the speed/time it would take in order for the robot to turn a perfect 90 degrees using speed of motorA = -speed of motorB. This worked for us and the robot made a perfect square path. 
     Box Test: For this task Romi performed 4 straight paths with 4 90 degree turns 
     -https://github.com/jasonvillanuevagit/cpe476/blob/master/Task_Sketches/box_test.ino
+    -youtube.com/watch?v=N52UEjlZ3Mk
 
 Task 5: PID Control - Implement PID control to offset unknown tracking errors. Use supplied K values. You can modify them later. 
 -For this task we ran the PID example found here https://gist.github.com/bradley219/5373998. The PID program allowed us to offset unknown tracking errors. With a few modifications to the program it ran.
