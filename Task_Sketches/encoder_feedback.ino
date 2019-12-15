@@ -18,7 +18,7 @@ void loop()
     motors.setSpeeds(100, 100*4);
   }
   else if (encoders.getCountsLeft() < encoders.getCountsRight())
-  {s
+  {
     motors.setSpeeds(100*4, 100);
   }
 }
